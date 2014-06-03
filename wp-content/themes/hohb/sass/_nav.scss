@@ -1,0 +1,24 @@
+#chat{
+  img{float:right;}
+}
+
+.top-bar {
+  display: block;
+}
+
+.top-bar-section {
+  height:100%;
+  
+  ul {
+    height: 100% !important;
+    display: block;
+    background:none;
+    
+    li {
+      height:100%;
+      a{font-weight:bold;}
+      &.active {border-bottom: 3px solid $orange;}
+      &:hover {border-bottom: 3px solid $orange;}
+    } 
+  }
+}

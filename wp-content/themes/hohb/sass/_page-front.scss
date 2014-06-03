@@ -1,0 +1,14 @@
+.lady {
+  width:100%;
+  min-height:23em;
+  background: url('../assets/images/lady.jpg') no-repeat;
+  background-size:cover;
+  
+  h1 {font-size:1.15em;}
+  p {color: $white;}
+}
+
+.orange-block {
+  background: $orange;
+  p {color: $white;}
+}

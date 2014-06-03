@@ -1,0 +1,49 @@
+.tab-bg {background: $purple;}
+
+.tabs {
+
+  dd {
+    
+    &.active {
+      margin-top: -5px !important;
+      padding-bottom: 5px;
+      background: $orange;
+      @include border-top-radius(4px);
+      
+      a {
+        font-weight: bold;
+        background:transparent;
+      }
+    }
+    
+    a {
+      font-size:14px;
+      color: $white;
+      background:$purple;
+    }
+  }
+}
+
+.tab-content-container {
+  position:relative;
+  
+  #tab-image {
+    position:absolute;
+    right:0;
+    width:45%;
+    height:100%;
+    min-height:23em;
+    background:url('../assets/images/client.jpg')no-repeat;
+    background-size:cover;
+  }
+}
+
+.tabs-content {
+  h2 {
+    font-size:1em;
+    margin-top:1em;
+  }
+  
+  #panel3,
+  #panel4 {padding-left:1em; float:right;}
+}
